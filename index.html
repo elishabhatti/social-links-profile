@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: hsl(0, 0%, 8%);
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 30px;
+    }
+    .card {
+      width: 375px;
+      font-family: 'Inter';
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 20px;
+      align-items: center;
+      padding: 20px 20px;
+      background-color: #1F1F1F;
+    }
+    li {
+      list-style: none;
+    }
+    button {
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      width: 80%;
+      margin: 10px 10px;
+      padding: 10px;
+      background-color: #333333;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: hsl(75, 94%, 57%);
+      transition: all 0.45s;
+      color: black;
+    }
+    img {
+      width: 20%;
+      border-radius: 100%;
+    }
+    .con {
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+    }
+    h2 {
+      color: white;
+      margin: 10px;
+    }
+    .front {
+      color: white;
+      margin: 20px 10px;
+      font-size: 14px;
+    }
+    @media (max-width:375px) {
+      .card {
+        width: 375px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="/assets/images/avatar-jessica.jpeg" alt="">
+      <h2>Jessica Randall</h2>
+      <p class="con">London, United Kingdom</p>
+      <p class="front">"Front-end developer and avid reader"</p>
+      <button>GitHub</button>
+      <button>Front-end</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+  </div>
+</body>
+</html>
